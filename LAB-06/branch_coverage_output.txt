@@ -1,0 +1,10 @@
+Command: coverage run --branch -m pytest -q BranchCoverageTest_61_credit_card_rewards.py
+............................                                             [100%]
+28 passed in 0.11s
+
+Command: coverage report -m credit_card_rewards.py
+Name                     Stmts   Miss Branch BrPart  Cover   Missing
+--------------------------------------------------------------------
+credit_card_rewards.py      35      0     26      0   100%
+--------------------------------------------------------------------
+TOTAL                       35      0     26      0   100%
